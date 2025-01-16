@@ -9,7 +9,7 @@ max_iters = 5000
 eval_interval = 500
 learning_rate = 1e-3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-eval_iters = 200
+eval_iters = 20
 n_embd = 64
 n_head = 8 # so every head is 64/8 = 8-dimensional
 n_layer = 6
